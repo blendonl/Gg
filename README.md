@@ -14,7 +14,7 @@ Ekzistojne dy menyra qe mundemi ti ruajme informacionet per grafin ose digrafin:
 1. Adjacency matrix (matrica e afersise/fqijnesise) 
 2. Adjacency list (lista e afersise/fqinjesise)
 
-![image](https://github.com/blendonluta/Gg/blob/master/fqijn.png)
+![image](https://github.com/blendonluta/Gg/blob/master/fiqjn.png)
 
 Adjacency matrix - Emrat e nyjeve jane emrat e kolonave dhe t'njejtit jane emrat e rreshtave
 
@@ -30,7 +30,7 @@ Jane dy lloje te Incidence matrix
 
 E orientuar per digrafin - Ka vlera 1, -1, 0 (-1 shenohet ne ate lokacion te matrices ku elementi i drejtohet me rruge elementit tjeter, 1 shenohet lokacioni i matrices ku tek ai element vie rruga, me 0 shenohet lokacioni qe nuk ka rruge)
 
-![image](https://github.com/blendonluta/Gg/blob/master/Incidente1.png)
+![image](https://github.com/blendonluta/Gg/blob/master/incidente1.png)
 
 E paorientuar per grafin - Ka vlera 1, 0 (1 shenohet lokacioni ku ai element ka rruge ne ate edge, me 0 shenohet lokacioni ku nuk ka rruge ai element)
 
@@ -40,7 +40,7 @@ E paorientuar per grafin - Ka vlera 1, 0 (1 shenohet lokacioni ku ai element ka 
 
 Shkalla ose valenca e nyjeve - tregon se me sa rruge eshte e lidhur nje nyje dhe shenohet me "deg(n)" - psh nyja u osht e lidhne me 2 edges dhe shenohet "deg(u) = 2"
 
-![image](https://github.com/blendonluta/Gg/blob/master/valenca.png)
+![image](https://github.com/blendonluta/Gg/blob/master/Valenca.png)
 
 #	Searching a Graph
 
