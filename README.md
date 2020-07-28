@@ -3,15 +3,18 @@ Grafet jane bashkesi e nyjeve (vertex, node) dhe degeve (edges) qe i lidhin nyje
 
 Grafi i padrejtuar (unordered graph) ka deget/rruget te cilat mund te parakalohen ne qdo drejtim (zakonisht quhen vetem grafe)
 
+Grafi i drejutar (directed graph) ka deget/rruget te cilat mund te parakalohen vetem ne nje drejitm (zakonisht quhen digrafe) 
+
 ![image](https://github.com/blendonluta/Gg/blob/master/grap.png)
 
-Grafi i drejutar (directed graph) ka deget/rruget te cilat mund te parakalohen vetem ne nje drejitm (zakonisht quhen digrafe) 
- 
 ##	Matrica dhe lista e fqijnesis
+
 Ekzistojne dy menyra qe mundemi ti ruajme informacionet per grafin ose digrafin:
+
 1. Adjacency matrix (matrica e afersise/fqijnesise) 
 2. Adjacency list (lista e afersise/fqinjesise)
- 
+
+![image](https://github.com/blendonluta/Gg/blob/master/fqijn.png)
 
 Adjacency matrix - Emrat e nyjeve jane emrat e kolonave dhe t'njejtit jane emrat e rreshtave
 
@@ -22,16 +25,22 @@ Adjacency list - Krijohet ni lloj linked list ku qdo node osht element i listes,
 
 Incidence matrix - Osht matrice qe paraqet relacionin mes nyjeve dhe degeve te nje grafi, ku rreshtat paraqesin vertices
 ndersa kolonat paraqesin edges 
+
 Jane dy lloje te Incidence matrix
 
 E orientuar per digrafin - Ka vlera 1, -1, 0 (-1 shenohet ne ate lokacion te matrices ku elementi i drejtohet me rruge elementit tjeter, 1 shenohet lokacioni i matrices ku tek ai element vie rruga, me 0 shenohet lokacioni qe nuk ka rruge)
- 
+
+![image](https://github.com/blendonluta/Gg/blob/master/Incidente1.png)
+
 E paorientuar per grafin - Ka vlera 1, 0 (1 shenohet lokacioni ku ai element ka rruge ne ate edge, me 0 shenohet lokacioni ku nuk ka rruge ai element)
- 
+
+![image](https://github.com/blendonluta/Gg/blob/master/Incidente.png)
+
 ##	Valenca e nyjeve
 
 Shkalla ose valenca e nyjeve - tregon se me sa rruge eshte e lidhur nje nyje dhe shenohet me "deg(n)" - psh nyja u osht e lidhne me 2 edges dhe shenohet "deg(u) = 2"
- 
+
+![image](https://github.com/blendonluta/Gg/blob/master/valenca.png)
 
 #	Searching a Graph
 
@@ -51,7 +60,8 @@ Algoritmi i BFS:
    duke kerkuar elementin e pare te afert te pavizituar
 3. Nese hapi i dyte nuk mundet qe te ekzekutohet (pasi qe queue osht e zbrazet) algoritmi perfundon
 ```
-https://drive.google.com/file/d/19z6dewmFrDI70YYGF4Eot3pPWuCRbsDO/view?usp=sharing
+> Video ku spjegohet me mire algoritmi i BFS: https://drive.google.com/file/d/19z6dewmFrDI70YYGF4Eot3pPWuCRbsDO/view?usp=sharing
+
 #	 Spanning Tree
 
 Spanning tree eshte nje subgraph i nje grafi qe i permban te gjitha nyjet e atij grafi, te lidhura. Pra eshte nje rruge (rrugetim) i nje grafi qe i kalon te gjitha nyjet e atij grafi. Nje graf mundet qe te kete disa "spanning tree", pra spanning tree nuk osht vete grafi, po osht rruga qe kalohet(neper dege) ne menyre qe te gjitha nyjet te jene te lidhura
