@@ -124,11 +124,10 @@ nese ka
 >2 rrenje me valence teke: Nuk ka qark te Eulerit, nuk ka shteg te Eulerit
 ```
 
-        
-
 # Dijkstra's Algorithm for Determining the Shortest Path
 Ky algoritem e gjen rrugen me te shkurter prej nje vertex te te gjithe te tjeret
 Algoritmi me fjale:
-Krijohet tabela per distancat mes nyjeve, fillohet prej nje vertex-i dhe zgjidhet qdohere nyja me e afert dhe kjo rruge regjistrohet ne tabele.
-Nese distanca mes dy nyjeve osht e njohur mirepo gjendet nje distance me e shkurter, atehere distanca e meparshme qe gjendet ne tabele zevendesohet me distancen e re te gjendur (me distancen me te vogel)
-Tabela nderrohet poashtu edhe kur e caktojme se me cilen nyje nese e marrim si nyje startuese (starting point) rruga eshte me e shkruter (shortest path)
+Krijohet tabela per distancat mes nyjeve, fillohet prej nje vertex-i dhe zgjidhet qdohere nyja me e afert dhe kjo rruge regjistrohet ne tabele. Nese distanca mes dy nyjeve osht e njohur mirepo gjendet nje distance me e shkurter, atehere distanca e meparshme qe gjendet ne tabele zevendesohet me distancen e re te gjendur (me distancen me te vogel)
+> Tabela nderrohet poashtu edhe kur e caktojme se me cilen nyje nese e marrim si nyje startuese (starting point) rruga eshte me e shkruter (shortest path)
+
+> Video ku spjegohet me mire algoritmi i Dijakstres https://www.youtube.com/watch?v=pVfj6mxhdMw
