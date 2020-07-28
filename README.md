@@ -3,7 +3,7 @@ Grafet jane bashkesi e nyjeve (vertex, node) dhe degeve (edges) qe i lidhin nyje
 
 Grafi i padrejtuar (unordered graph) ka deget/rruget te cilat mund te parakalohen ne qdo drejtim (zakonisht quhen vetem grafe)
 
-                    ![image](https://github.com/blendonluta/Gg/blob/master/grap.png)
+![image](https://github.com/blendonluta/Gg/blob/master/grap.png)
 
 Grafi i drejutar (directed graph) ka deget/rruget te cilat mund te parakalohen vetem ne nje drejitm (zakonisht quhen digrafe) 
  
