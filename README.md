@@ -2,7 +2,7 @@
 Grafet jane bashkesi e nyjeve (vertex, node) dhe degeve (edges) qe i lidhin nyjet mes vet. Grafet shenohen me shkronje te madhe psh "A" ndersa rrenjet me shkronje te vogel. Grafi mund te jete i padrejtuar ose i dejtuar.
 
 Grafi i padrejtuar (unordered graph) ka deget/rruget te cilat mund te parakalohen ne qdo drejtim (zakonisht quhen vetem grafe)
-! https://github.com/blendonluta/Gg/blob/master/Incidente.png
+! [image] (https://github.com/blendonluta/Gg/blob/master/Incidente.png)
 Grafi i drejutar (directed graph) ka deget/rruget te cilat mund te parakalohen vetem ne nje drejitm (zakonisht quhen digrafe) 
  
 ##	Matrica dhe lista e fqijnesis
